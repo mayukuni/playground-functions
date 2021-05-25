@@ -21,14 +21,9 @@ function splitSentence(string) {
 
 //Desafio 4
 function concatName(array) {
-  // let nomes = ['Lucas', 'Cassiano', 'Ferraz', 'Paolillo'];
-  // let frase = ['foguete', 'não', 'tem', 'ré'];
-  // let frase2 = ['captain', 'my', 'captain'];
-  // let firstName = array[0];
-  // let lastName = array.lastIndexOf()
-  // if (array === nomes) {
-  //   return firstName + lastName;
-  // }
+ let firstName = array[0];
+ let lastName = array[array.length - 1];
+ return lastName + ", " + firstName 
 } 
 
 // Desafio 5
@@ -40,7 +35,7 @@ function footballPoints(wins, ties) {
 
 // Desafio 6
 function highestCount(array) {
-  let maiorNum = math.max(array)
+//   let maiorNum = math.max(array)
 }
 
 // Desafio 7

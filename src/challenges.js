@@ -16,28 +16,31 @@ function calcArea(base, altura) {
 // Desafio 3
 function splitSentence(string) {
   let array = string.split(' ');
-  if (string === 'go Trybe') {
-    return array;
-  } else if (string === 'vamo que vamo') {
-    return array;
-    } else {
-      return array;
-      }
+  return array;
 } 
 
-// Desafio 4
-function concatName() {
-  // seu código aqui
-}
+//Desafio 4
+function concatName(array) {
+  // let nomes = ['Lucas', 'Cassiano', 'Ferraz', 'Paolillo'];
+  // let frase = ['foguete', 'não', 'tem', 'ré'];
+  // let frase2 = ['captain', 'my', 'captain'];
+  // let firstName = array[0];
+  // let lastName = array.lastIndexOf()
+  // if (array === nomes) {
+  //   return firstName + lastName;
+  // }
+} 
 
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
+function footballPoints(wins, ties) {
+  let winsPoints = wins * 3;
+  let points = winsPoints + ties;
+  return points;
 }
 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+function highestCount(array) {
+  let maiorNum = math.max(array)
 }
 
 // Desafio 7

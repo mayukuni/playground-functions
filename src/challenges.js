@@ -10,13 +10,20 @@ function compareTrue(param1, param2) {
 // Desafio 2
 function calcArea(base, altura) {
   let resultado = (base * altura) / 2;
-  return resultado
+  return resultado;
 } 
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
-}
+function splitSentence(string) {
+  let array = string.split(' ');
+  if (string === 'go Trybe') {
+    return array;
+  } else if (string === 'vamo que vamo') {
+    return array;
+    } else {
+      return array;
+      }
+} 
 
 // Desafio 4
 function concatName() {

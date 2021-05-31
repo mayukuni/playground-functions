@@ -1,30 +1,28 @@
 // Desafio 1
 function compareTrue(param1, param2) {
-  if (param1 === true && param2 === true) {
+  if (param1 && param2 === true) {
     return true;
-  } else {
-    return false;
-  }
+  } return false;
 }
 
 // Desafio 2
 function calcArea(base, altura) {
   let resultado = (base * altura) / 2;
   return resultado;
-} 
+}
 
 // Desafio 3
 function splitSentence(string) {
   let array = string.split(' ');
   return array;
-} 
+}
 
-//Desafio 4
+// Desafio 4
 function concatName(array) {
- let firstName = array[0];
- let lastName = array[array.length - 1];
- return lastName + ", " + firstName 
-} 
+  let firstName = array[0];
+  let lastName = array[array.length - 1];
+  return lastName + ", " + firstName;
+}
 
 // Desafio 5
 function footballPoints(wins, ties) {
@@ -35,15 +33,15 @@ function footballPoints(wins, ties) {
 
 // Desafio 6
 function highestCount(array) {
-  let maiorNum = Math.max(...array)
-  let quantidade = 0
+  let maiorNum = Math.max(...array);
+  let quantidade = 0;
   for (let index = 0; index < array.length; index += 1) {
     if (maiorNum === array[index]) {
-    quantidade += 1;
+      quantidade += 1;
     }
   }
   return quantidade;
-} 
+}
 
 // Desafio 7
 function catAndMouse(mouse, cat1, cat2) {
@@ -60,7 +58,7 @@ function catAndMouse(mouse, cat1, cat2) {
 
 // Desafio 8
 function fizzBuzz(array) {
-  let array2 = []
+  let array2 = [];
   for (let index = 0; index < array.length; index += 1){
     if (array[index] % 3 === 0 && array[index] % 5 === 0) {
       array2[index] = "fizzBuzz";

@@ -2,7 +2,8 @@
 function compareTrue(param1, param2) {
   if (param1 && param2 === true) {
     return true;
-  } return false;
+  } 
+  return false;
 }
 
 // Desafio 2
@@ -21,7 +22,7 @@ function splitSentence(string) {
 function concatName(array) {
   let firstName = array[0];
   let lastName = array[array.length - 1];
-  return lastName + ", " + firstName;
+  return lastName + ', ' + firstName;
 }
 
 // Desafio 5
@@ -61,13 +62,13 @@ function fizzBuzz(array) {
   let array2 = [];
   for (let index = 0; index < array.length; index += 1){
     if (array[index] % 3 === 0 && array[index] % 5 === 0) {
-      array2[index] = "fizzBuzz";
+      array2[index] = 'fizzBuzz';
     } else if (array[index] % 5 === 0) {
-      array2[index] = "buzz";
+      array2[index] = 'buzz';
     } else if (array[index] % 3 === 0) {
-      array2[index] = "fizz";
+      array2[index] = 'fizz';
     } else {
-      array2[index] = "bug!";
+      array2[index] = 'bug!';
     } 
   }
   return array2;
@@ -78,7 +79,7 @@ function encode(string) {
   let string2 = '';
   for (let index = 0; index < string.length; index += 1) {
     if (string[index] === 'a') {
-      string2 += "1";
+      string2 += '1';
     } else if (string[index] === 'e') {
       string2 += '2';
     } else if (string[index] === 'i') {
@@ -97,7 +98,7 @@ function decode(string3) {
  let string4 = '';
   for (let index = 0; index < string3.length; index += 1) {
     if (string3[index] === '1') {
-      string4 += "a";
+      string4 += 'a';
     } else if (string3[index] === '2') {
       string4 += 'e';
     } else if (string3[index] === '3') {

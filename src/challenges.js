@@ -2,7 +2,7 @@
 function compareTrue(param1, param2) {
   if (param1 && param2 === true) {
     return true;
-  } 
+  }
   return false;
 }
 
@@ -50,7 +50,7 @@ function catAndMouse(mouse, cat1, cat2) {
   let catTwo = Math.abs(mouse - cat2);
   if (catOne > catTwo) {
     return 'cat2';
-  } else if (catTwo > catOne) {
+  } if (catTwo > catOne) {
     return 'cat1';
   } else if (catOne === catTwo) {
     return 'os gatos trombam e o rato foge';
@@ -60,7 +60,7 @@ function catAndMouse(mouse, cat1, cat2) {
 // Desafio 8
 function fizzBuzz(array) {
   let array2 = [];
-  for (let index = 0; index < array.length; index += 1){
+  for (let index = 0; index < array.length; index += 1) {
     if (array[index] % 3 === 0 && array[index] % 5 === 0) {
       array2[index] = 'fizzBuzz';
     } else if (array[index] % 5 === 0) {
@@ -69,7 +69,7 @@ function fizzBuzz(array) {
       array2[index] = 'fizz';
     } else {
       array2[index] = 'bug!';
-    } 
+    }
   }
   return array2;
 }
@@ -91,11 +91,11 @@ function encode(string) {
     } else {
       string2 += string[index];
     }
-  } return string2; 
+  } return string2;
 }
 
 function decode(string3) {
- let string4 = '';
+  let string4 = '';
   for (let index = 0; index < string3.length; index += 1) {
     if (string3[index] === '1') {
       string4 += 'a';
@@ -110,7 +110,7 @@ function decode(string3) {
     } else {
       string4 += string3[index];
     }
-  } return string4; 
+  } return string4;
 }
 
 module.exports = {
